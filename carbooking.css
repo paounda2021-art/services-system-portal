@@ -1,0 +1,764 @@
+/* ==========================================
+   FMO Car Booking CSS Stylesheet (K2D Font)
+   ========================================== */
+
+:root {
+  --cb-primary: #1e3a8a;      /* Navy Blue */
+  --cb-secondary: #2563eb;    /* Sky Blue */
+  --cb-secondary-light: #eff6ff;
+  --cb-success: #10b981;
+  --cb-success-light: #d1fae5;
+  --cb-warning: #f59e0b;
+  --cb-warning-light: #fef3c7;
+  --cb-danger: #ef4444;
+  --cb-danger-light: #fee2e2;
+  --cb-text-main: #1e293b;
+  --cb-text-muted: #64748b;
+  --cb-bg-gray: #f8fafc;
+  --cb-border: #e2e8f0;
+  --cb-radius: 12px;
+  --cb-shadow: 0 4px 6px -1px rgba(30, 58, 138, 0.08), 0 2px 4px -1px rgba(30, 58, 138, 0.04);
+  --cb-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Base resets */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body.cb-body {
+  font-family: 'K2D', 'Inter', sans-serif;
+  background-color: var(--cb-bg-gray);
+  color: var(--cb-text-main);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styling */
+.cb-header {
+  background: white;
+  border-bottom: 2px solid var(--cb-border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.cb-header-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0.8rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.cb-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cb-logo {
+  height: 52px;
+  width: auto;
+}
+
+.cb-brand-text h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--cb-primary);
+}
+
+.cb-brand-text p {
+  font-size: 0.85rem;
+  color: var(--cb-text-muted);
+}
+
+.cb-user-section {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.cb-user-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: var(--cb-bg-gray);
+  padding: 0.4rem 1rem;
+  border-radius: 30px;
+  border: 1px solid var(--cb-border);
+}
+
+.cb-avatar {
+  width: 38px;
+  height: 38px;
+  background: var(--cb-primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.cb-user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.cb-user-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--cb-primary);
+}
+
+.cb-user-role {
+  font-size: 0.75rem;
+  color: var(--cb-text-muted);
+}
+
+.btn-back-portal {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: white;
+  color: var(--cb-secondary);
+  border: 1.5px solid var(--cb-secondary);
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: var(--cb-transition);
+}
+
+.btn-back-portal:hover {
+  background: var(--cb-secondary-light);
+  transform: translateY(-1px);
+}
+
+/* Layout container */
+.cb-main-layout {
+  max-width: 1400px;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  flex: 1;
+}
+
+/* Navigation tabs */
+.cb-nav-tabs {
+  display: flex;
+  background: white;
+  padding: 0.4rem;
+  border-radius: var(--cb-radius);
+  box-shadow: var(--cb-shadow);
+  border: 1px solid var(--cb-border);
+  gap: 0.5rem;
+  overflow-x: auto;
+}
+
+.cb-tab-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  background: transparent;
+  color: var(--cb-text-muted);
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: var(--cb-transition);
+  white-space: nowrap;
+}
+
+.cb-tab-btn:hover {
+  color: var(--cb-secondary);
+  background: var(--cb-bg-gray);
+}
+
+.cb-tab-btn.active {
+  background: var(--cb-primary);
+  color: white;
+}
+
+.cb-tab-btn.active svg {
+  stroke: white;
+}
+
+/* Content Panel Animation */
+.cb-content-container {
+  min-height: 400px;
+}
+
+.cb-panel {
+  display: none;
+  animation: cbFadeSlideIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.cb-panel.active {
+  display: block;
+}
+
+@keyframes cbFadeSlideIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Cards system */
+.cb-card {
+  background: white;
+  border-radius: var(--cb-radius);
+  border: 1px solid var(--cb-border);
+  padding: 2rem;
+  box-shadow: var(--cb-shadow);
+  margin-bottom: 1.5rem;
+}
+
+.cb-card h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--cb-primary);
+  margin-bottom: 0.8rem;
+  position: relative;
+  padding-left: 0.8rem;
+}
+
+.cb-card h3::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 15%;
+  height: 70%;
+  width: 4px;
+  background: var(--cb-secondary);
+  border-radius: 2px;
+}
+
+/* Fleet Catalog Styles */
+.fleet-section-title {
+  margin-bottom: 1.25rem;
+  padding: 0 4px;
+}
+
+.fleet-section-title h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--cb-primary);
+}
+
+.fleet-section-title p {
+  font-size: 0.88rem;
+  color: var(--cb-text-muted);
+}
+
+.fleet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.fleet-card {
+  background: white;
+  border: 1px solid var(--cb-border);
+  border-radius: var(--cb-radius);
+  padding: 1.25rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: var(--cb-transition);
+}
+
+.fleet-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--cb-secondary);
+  box-shadow: 0 8px 16px rgba(30, 58, 138, 0.08);
+}
+
+.fleet-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fleet-car-type {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--cb-secondary);
+  background: var(--cb-secondary-light);
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+/* Vehicle image simulation container */
+.fleet-image-placeholder {
+  width: 100%;
+  height: 120px;
+  background: linear-gradient(135deg, #f1f5f9 0%, #cbd5e1 100%);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #475569;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+}
+
+.car-icon {
+  font-size: 2.5rem;
+  margin-bottom: 4px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+.plate-num-overlay {
+  position: absolute;
+  bottom: 8px;
+  background: rgba(30, 41, 59, 0.85);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.5px;
+}
+
+.fleet-details h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--cb-primary);
+}
+
+.fleet-info-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  color: var(--cb-text-muted);
+  border-top: 1px dashed var(--cb-border);
+  padding-top: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.fleet-info-row strong {
+  color: var(--cb-text-main);
+}
+
+/* Badges for status */
+.cb-badge-status {
+  padding: 0.2rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.cb-badge-status.available {
+  background: var(--cb-success-light);
+  color: var(--cb-success);
+}
+
+.cb-badge-status.inuse {
+  background: var(--cb-warning-light);
+  color: var(--cb-warning);
+}
+
+.cb-badge-status.maintenance {
+  background: var(--cb-danger-light);
+  color: var(--cb-danger);
+}
+
+.cb-badge-status.pending {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+/* Forms and Inputs */
+.form-desc-text {
+  font-size: 0.88rem;
+  color: var(--cb-text-muted);
+  margin-bottom: 2rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.form-group label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--cb-primary);
+}
+
+.form-control, .form-control-select, .form-control-textarea {
+  padding: 0.7rem 1rem;
+  border: 1.5px solid var(--cb-border);
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  outline: none;
+  background: white;
+  transition: var(--cb-transition);
+}
+
+.form-control:focus, .form-control-select:focus, .form-control-textarea:focus {
+  border-color: var(--cb-secondary);
+  box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
+}
+
+.form-control-textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+/* Tables and responsive displays */
+.panel-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.panel-header-row p {
+  font-size: 0.85rem;
+  color: var(--cb-text-muted);
+  margin-top: 2px;
+}
+
+.count-badge {
+  background: var(--cb-primary);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.count-badge.status-alert {
+  background: var(--cb-danger);
+  animation: pulseAlert 2s infinite;
+}
+
+@keyframes pulseAlert {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--cb-border);
+  border-radius: 8px;
+}
+
+.cb-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.88rem;
+}
+
+.cb-table th {
+  background: var(--cb-primary);
+  color: white;
+  padding: 0.85rem 1rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.cb-table td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--cb-border);
+  background: white;
+}
+
+.cb-table tbody tr:hover td {
+  background: var(--cb-bg-gray);
+}
+
+.cb-table td.text-center, .cb-table th.text-center {
+  text-align: center;
+}
+
+/* Driver Jobs Ticket design */
+.driver-jobs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.driver-ticket {
+  background: white;
+  border: 2px solid var(--cb-border);
+  border-radius: var(--cb-radius);
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  border-left: 6px solid var(--cb-warning);
+  transition: var(--cb-transition);
+}
+
+.driver-ticket.confirmed {
+  border-left-color: var(--cb-success);
+}
+
+.driver-ticket:hover {
+  box-shadow: var(--cb-shadow);
+  border-color: var(--cb-secondary);
+}
+
+.ticket-main-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  flex: 1;
+}
+
+.ticket-header-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ticket-id {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--cb-primary);
+}
+
+.ticket-dest h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--cb-primary);
+}
+
+.ticket-meta-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.5rem 1.5rem;
+  font-size: 0.82rem;
+  color: var(--cb-text-muted);
+  margin-top: 0.5rem;
+}
+
+.ticket-meta-info span strong {
+  color: var(--cb-text-main);
+}
+
+.ticket-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.75rem;
+}
+
+/* Checkbox Pre-trip Styles */
+.checklist-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 2rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .checklist-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.check-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  background: var(--cb-bg-gray);
+  border: 1px solid var(--cb-border);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  transition: var(--cb-transition);
+}
+
+.check-item:hover {
+  border-color: var(--cb-secondary);
+  background: white;
+}
+
+.check-item input[type="checkbox"] {
+  display: none;
+}
+
+.check-box-custom {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #cbd5e1;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  transition: var(--cb-transition);
+  flex-shrink: 0;
+}
+
+.check-item input[type="checkbox"]:checked + .check-box-custom {
+  background: var(--cb-success);
+  border-color: var(--cb-success);
+}
+
+.check-item input[type="checkbox"]:checked + .check-box-custom::after {
+  content: '✔';
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.check-text {
+  color: var(--cb-text-main);
+}
+
+.check-item input[type="checkbox"]:checked ~ .check-text {
+  color: var(--cb-success);
+}
+
+/* Buttons */
+.btn {
+  padding: 0.65rem 1.25rem;
+  border-radius: 6px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 0.88rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: none;
+  transition: var(--cb-transition);
+}
+
+.btn-primary {
+  background-color: var(--cb-secondary);
+  color: white;
+  box-shadow: 0 4px 6px rgba(37,99,235,0.15);
+}
+
+.btn-primary:hover {
+  background-color: var(--cb-primary);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background-color: #f1f5f9;
+  color: var(--cb-text-main);
+  border: 1px solid var(--cb-border);
+}
+
+.btn-secondary:hover {
+  background-color: #e2e8f0;
+}
+
+.btn-success {
+  background-color: var(--cb-success);
+  color: white;
+  box-shadow: 0 4px 6px rgba(16, 185, 129, 0.15);
+}
+
+.btn-success:hover {
+  background-color: #059669;
+  transform: translateY(-1px);
+}
+
+/* Manager console custom dropdown inside tables */
+.table-select {
+  padding: 0.4rem;
+  border-radius: 4px;
+  border: 1.5px solid var(--cb-border);
+  font-family: inherit;
+  font-size: 0.8rem;
+  width: 100%;
+  background: white;
+  outline: none;
+}
+
+.table-select:focus {
+  border-color: var(--cb-secondary);
+}
+
+/* Toast Message */
+.cb-toast {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  background: var(--cb-primary);
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  opacity: 0;
+  z-index: 1000;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  pointer-events: none;
+}
+
+.cb-toast.show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
+
+.text-danger {
+  color: var(--cb-danger);
+}
+
+.text-success {
+  color: var(--cb-success);
+}
