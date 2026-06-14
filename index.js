@@ -422,7 +422,10 @@ document.addEventListener("DOMContentLoaded", () => {
     dashboardStats.style.opacity = "1.0";
     dashboardStats.style.pointerEvents = "auto";
     pendingTasksNum.textContent = userObj.pendingTasks;
-    document.getElementById("alert-counter").textContent = userObj.pendingTasks;
+    const alertCounter = document.getElementById("alert-counter");
+    if (alertCounter) {
+      alertCounter.textContent = userObj.pendingTasks;
+    }
 
     // 3. กรองการแจ้งเตือนใน Sidebar ตามสิทธิ์
     document.querySelectorAll(".alert-item").forEach(item => {
