@@ -411,7 +411,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // 1. จัดการการแสดงผล Header
     loginWrapper.style.display = "none";
     userProfileBox.style.display = "flex";
-    notificationBtn.style.display = "block";
+    if (notificationBtn) notificationBtn.style.display = "none";
     userAvatar.querySelector("span").textContent = userObj.avatar;
     userNameLabel.textContent = userObj.name;
     userRoleLabel.textContent = userObj.role;
@@ -456,7 +456,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // 1. รีเซ็ต Header
     loginWrapper.style.display = "flex";
     userProfileBox.style.display = "none";
-    notificationBtn.style.display = "none";
+    if (notificationBtn) notificationBtn.style.display = "none";
     closeSidebar(); // ปิด sidebar ถ้าเปิดค้างไว้
 
     // 2. รีเซ็ต Welcome Banner & Dashboard
@@ -531,7 +531,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.style.overflow = "auto";
   }
 
-  notificationBtn.addEventListener("click", openSidebar);
+  if (notificationBtn) notificationBtn.addEventListener("click", openSidebar);
   pendingTasksTrigger.addEventListener("click", openSidebar);
   closeSidebarBtn.addEventListener("click", closeSidebar);
   overlay.addEventListener("click", closeSidebar);
