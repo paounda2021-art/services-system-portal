@@ -32,9 +32,9 @@ const SYSTEM_LINKS = {
     inbox: "https://workd.go.th/mail/inbox"
   },
   itSupport: {
-    main: "https://tickets-request-fmo.fishmarket.co.th/",
-    create: "https://tickets-request-fmo.fishmarket.co.th/",
-    status: "https://tickets-request-fmo.fishmarket.co.th/"
+    main: "https://tickets-request.fishmarket.co.th/",
+    create: "https://tickets-request.fishmarket.co.th/",
+    status: "https://tickets-request.fishmarket.co.th/"
   },
   checkPermission: {
     main: "https://check-permission.fishmarket.co.th/",
