@@ -270,6 +270,7 @@ body.mint-coastal-theme .clear-search-btn:hover {
 }
 
 .notification-trigger {
+  display: none !important;
   position: relative;
   cursor: pointer;
   padding: 8px;
