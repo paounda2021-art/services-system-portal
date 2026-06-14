@@ -9,7 +9,7 @@
         "department2":  "",
         "role":  "",
         "manager_email":  "",
-        "sign":  ""
+        "premission":  "1,2,3,5,6,7,8"
     },
     {
         "employee_id":  "11145374",
@@ -21,7 +21,7 @@
         "department2":  "สกม.",
         "role":  "user",
         "manager_email":  "trakarnkul.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,4,5,6,7,8"
     },
     {
         "employee_id":  "11100026",
@@ -33,7 +33,7 @@
         "department2":  "สบตส.",
         "role":  "user",
         "manager_email":  "nikorn.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,4,5,6,7,8"
     },
     {
         "employee_id":  "11126956",
@@ -45,7 +45,7 @@
         "department2":  "สบช.",
         "role":  "user",
         "manager_email":  "sarena.m@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,4,5,6,7,8"
     },
     {
         "employee_id":  "11123949",
@@ -57,7 +57,7 @@
         "department2":  "ผปส.",
         "role":  "user",
         "manager_email":  "amornrat.k@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,4,5,6,7,8"
     },
     {
         "employee_id":  "11198253",
@@ -69,7 +69,7 @@
         "department2":  "สบค.",
         "role":  "user",
         "manager_email":  "opas.po@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,4,5,6,7,8"
     },
     {
         "employee_id":  "11120895",
@@ -81,7 +81,7 @@
         "department2":  "สบค.",
         "role":  "user",
         "manager_email":  "opas.po@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,4,5,6,7,8"
     },
     {
         "employee_id":  "11118986",
@@ -93,7 +93,7 @@
         "department2":  "สบช.",
         "role":  "user",
         "manager_email":  "sarena.m@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,4,5,6,7,8,10"
     },
     {
         "employee_id":  "11142141",
@@ -105,7 +105,7 @@
         "department2":  "สธสช.",
         "role":  "user",
         "manager_email":  "patiyoot.k@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,4,5,6,7,8,9"
     },
     {
         "employee_id":  "11199243",
@@ -117,7 +117,7 @@
         "department2":  "สบสช.",
         "role":  "user",
         "manager_email":  "supachai.j@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,4,5,6,7,8,9"
     },
     {
         "employee_id":  "11127582",
@@ -129,7 +129,7 @@
         "department2":  "สกม.",
         "role":  "user",
         "manager_email":  "trakarnkul.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,4,5,6,7,8"
     },
     {
         "employee_id":  "07170004",
@@ -141,7 +141,7 @@
         "department2":  "สป.กท.",
         "role":  "user",
         "manager_email":  "pratum.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170006",
@@ -153,7 +153,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "supbhachart.c@fishmarket.co.th",
-        "sign":  "data:image/png;base64,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"
+        "premission":  "1,2,3,4,5,6,7,8,10"
     },
     {
         "employee_id":  "07170008",
@@ -165,7 +165,7 @@
         "department2":  "สป.กท.",
         "role":  "user",
         "manager_email":  "pornthip.t@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,10,11"
     },
     {
         "employee_id":  "07170017",
@@ -177,7 +177,7 @@
         "department2":  "สบ.2",
         "role":  "user",
         "manager_email":  "supranee.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,11"
     },
     {
         "employee_id":  "07170021",
@@ -189,7 +189,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "supbhachart.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,5,6,7,8,10,11"
     },
     {
         "employee_id":  "07170023",
@@ -201,7 +201,7 @@
         "department2":  "สบ.1",
         "role":  "user",
         "manager_email":  "pornthip.t@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,10,11"
     },
     {
         "employee_id":  "07170024",
@@ -213,7 +213,7 @@
         "department2":  "สสส.",
         "role":  "user",
         "manager_email":  "wasanchai.j@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170027",
@@ -225,7 +225,7 @@
         "department2":  "สกง.",
         "role":  "user",
         "manager_email":  "suwanna.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170028",
@@ -237,7 +237,7 @@
         "department2":  "สกง.",
         "role":  "user",
         "manager_email":  "suwanna.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170029",
@@ -249,7 +249,7 @@
         "department2":  "สพด.",
         "role":  "user",
         "manager_email":  "piyawan.k@fishmarket.co.th",
-        "sign":  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAAA8CAYAAAC94fIxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPTSURBVHhe7dpbb9pmGAfwfrXtetIudlCvNm3rpK2dtmWHlGwiTVYSikKzNiFQiCGQYLAdTg4YMOCYAEmWtFu3Tq007cP8J4MCAZtUAipF0/93hd+DQe/z2O9jixs3iIiIiIiIiIiIiIiIiIiIiOiyk+NzZDMHGG0n6hKTCpODnGmlBpODxlMLVSbI/03T+INBJWdV7Rym8fdMEuS4czaT89A1IaVK3YDWKi/ws2sTu3uTbw+d9hkq5frE8+maiUdT/WCq+VMszG/Cv6bA7Q5NFGSj0UJNP5xoLl0ze/G0LZBq4TlufbaCt9/6BCsrUVt/tVq2tV12oFau7KcZO2k/m/mCn5yeIRgKX3nevT0DebVpG/PprTm89/4XMJsvbH1bwQhkJWdrpymUajUUSib0+m/dha3XjxHaiiOVVHHcevraxdYPO9iO7b12nNloo5A3ENwSEUs4v8CKJpLQG+1uXzDoHOh7y4+QSjvXGPGE6NhOU7jvC2FxKYzbd3z4dm4VW0EJpZLzHl7IDQdGyeiQ9huIRFNIK/l+X1FtoNMcfmR9siXBuyrigTeNQGiQIGqxhQe+beQKZretUKwisp3FQfHU8TdEBNmxPZMdfD/N0H7+HB6PBDH5DP61LFIp+239QiQkodP6s9//3fdeFLXeFnTY/L3fHgo4X8l+Xxly6iWS4hFyaqc7pnn0Cq6FddTqg/l3brsc51tCYRFpyf6W9KDI2uONKFdeIRzuXb1XyWVq2Inu98cpSgnRnRIaxj9Dc/eVKtote31gWXbn8fihCVnpbWcWw3iJmNB7zL3gmvc4zrcIQgqR7eG7hVaujR1PU4gnylj1iige/IWPP1q8cpF3ogrEZKY/Znc3g3LF/kLKqjFG2yxL92L41a/j5ge/4O7Co/6Y+btryCiDBG23j7G86HM8h2VjQ7D1FVTN1kZTqmhNuBYeolzu1QrxhIbAhgKf1x4Ai5TOQtMGgTDqJ/D7g91jrfi0O9f6LAjS0PxAQMCKJ9Bv+/GHYLfOuTj+8ObnaB097x/Lsgy/bzB+lHW+y8dHLedahaY0981PcC8OrmTL4/UEVu/3gj5Kr9hv44dmB7GYgq+/8uDdd77EknsdTXM4YJXK0SCpGv9ClntPKRek/eH/a5jGIXRteMyonUQOsXgeomgVs5O/daUxZCmHzY0nM1tYvWxCzenIZ66+1QcCcZimfVuahFEfX0zTlPSq82PsmyZJ/HcXjSEISSYHjRcJJ5ggNJ5WZM1AYyR3s0wOGk+WCkwQIiIiIiIiIiIiIiIiIiIiIiIiIiIiouvmP6r6TVR7ZrPFAAAAAElFTkSuQmCC"
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170031",
@@ -261,7 +261,7 @@
         "department2":  "สบช.",
         "role":  "user",
         "manager_email":  "piyawan.k@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170032",
@@ -273,7 +273,7 @@
         "department2":  "สกง.",
         "role":  "user",
         "manager_email":  "piyawan.k@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170034",
@@ -285,7 +285,7 @@
         "department2":  "สยศ.",
         "role":  "user",
         "manager_email":  "peerawat.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170036",
@@ -297,7 +297,7 @@
         "department2":  "สบคพ.",
         "role":  "user",
         "manager_email":  "wasanchai.j@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170038",
@@ -309,7 +309,7 @@
         "department2":  "สบค.",
         "role":  "user",
         "manager_email":  "nitikhon.k@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170039",
@@ -321,7 +321,7 @@
         "department2":  "สบคพ.",
         "role":  "user",
         "manager_email":  "wasanchai.j@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170041",
@@ -333,7 +333,7 @@
         "department2":  "สบน.",
         "role":  "user",
         "manager_email":  "jiraporn.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170043",
@@ -345,7 +345,7 @@
         "department2":  "สบค.",
         "role":  "user",
         "manager_email":  "opas.po@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170046",
@@ -357,7 +357,7 @@
         "department2":  "สป.กท.",
         "role":  "user",
         "manager_email":  "pratum.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170049",
@@ -369,7 +369,7 @@
         "department2":  "สบตส.",
         "role":  "user",
         "manager_email":  "nikorn.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170051",
@@ -381,7 +381,7 @@
         "department2":  "สบช.",
         "role":  "user",
         "manager_email":  "sarena.m@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,10"
     },
     {
         "employee_id":  "07170052",
@@ -393,7 +393,7 @@
         "department2":  "สบค.",
         "role":  "user",
         "manager_email":  "opas.po@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170053",
@@ -405,7 +405,7 @@
         "department2":  "สป.กท.",
         "role":  "user",
         "manager_email":  "pratum.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170054",
@@ -417,7 +417,7 @@
         "department2":  "ศขส.",
         "role":  "user",
         "manager_email":  "pichai.k@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,10,11"
     },
     {
         "employee_id":  "07170055",
@@ -429,7 +429,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "chanchai.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,5,6,7,8,10,11"
     },
     {
         "employee_id":  "07170057",
@@ -441,7 +441,7 @@
         "department2":  "สบ.2",
         "role":  "user",
         "manager_email":  "weera.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170060",
@@ -453,7 +453,7 @@
         "department2":  "สป.กท.",
         "role":  "user",
         "manager_email":  "kanyaphak.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,10,11"
     },
     {
         "employee_id":  "07170062",
@@ -465,7 +465,7 @@
         "department2":  "สธสช.",
         "role":  "user",
         "manager_email":  "athasit.t@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,9"
     },
     {
         "employee_id":  "07170063",
@@ -477,7 +477,7 @@
         "department2":  "สบสช.",
         "role":  "user",
         "manager_email":  "athasit.t@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,9"
     },
     {
         "employee_id":  "07170065",
@@ -489,7 +489,7 @@
         "department2":  "สทส.",
         "role":  "user",
         "manager_email":  "supranee.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,9,10,11"
     },
     {
         "employee_id":  "07170066",
@@ -501,7 +501,7 @@
         "department2":  "สป.กท.",
         "role":  "user",
         "manager_email":  "pratum.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170070",
@@ -513,7 +513,7 @@
         "department2":  "สบช.",
         "role":  "user",
         "manager_email":  "sarena.m@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,10"
     },
     {
         "employee_id":  "07170076",
@@ -525,7 +525,7 @@
         "department2":  "สยศ.",
         "role":  "user",
         "manager_email":  "suranee.w@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170078",
@@ -537,7 +537,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "preeda.y@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,10"
     },
     {
         "employee_id":  "07170079",
@@ -549,7 +549,7 @@
         "department2":  "สสส.",
         "role":  "user",
         "manager_email":  "jiratha.r@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170080",
@@ -561,7 +561,7 @@
         "department2":  "สบช.",
         "role":  "user",
         "manager_email":  "sarena.m@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,10"
     },
     {
         "employee_id":  "07170081",
@@ -573,7 +573,7 @@
         "department2":  "สกม.",
         "role":  "user",
         "manager_email":  "nitikhon.k@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170082",
@@ -585,7 +585,7 @@
         "department2":  "สพด.",
         "role":  "user",
         "manager_email":  "saisunee.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170084",
@@ -597,7 +597,7 @@
         "department2":  "สตป.",
         "role":  "user",
         "manager_email":  "peerawat.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170085",
@@ -609,7 +609,7 @@
         "department2":  "สกง.",
         "role":  "user",
         "manager_email":  "panchit.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170086",
@@ -621,7 +621,7 @@
         "department2":  "สบ.2",
         "role":  "user",
         "manager_email":  "weera.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170087",
@@ -633,7 +633,7 @@
         "department2":  "สบค.",
         "role":  "user",
         "manager_email":  "papimon.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170088",
@@ -645,7 +645,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "kanokkorn.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170089",
@@ -657,7 +657,7 @@
         "department2":  "ผสบ.",
         "role":  "user",
         "manager_email":  "wirote.r@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170091",
@@ -669,7 +669,7 @@
         "department2":  "สกง.",
         "role":  "user",
         "manager_email":  "thanida.t@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170093",
@@ -681,7 +681,7 @@
         "department2":  "สกง.",
         "role":  "user",
         "manager_email":  "panchit.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170094",
@@ -693,7 +693,7 @@
         "department2":  "สบค.",
         "role":  "user",
         "manager_email":  "thanida.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170098",
@@ -705,7 +705,7 @@
         "department2":  "ผปส.",
         "role":  "user",
         "manager_email":  "wirote.r@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170099",
@@ -717,7 +717,7 @@
         "department2":  "สบสช.",
         "role":  "user",
         "manager_email":  "jaruwan.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,9"
     },
     {
         "employee_id":  "07170100",
@@ -729,7 +729,7 @@
         "department2":  "สตป.",
         "role":  "user",
         "manager_email":  "patchareeya.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170102",
@@ -741,7 +741,7 @@
         "department2":  "สตป.",
         "role":  "user",
         "manager_email":  "patchareeya.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170105",
@@ -753,7 +753,7 @@
         "department2":  "สพด.",
         "role":  "admin",
         "manager_email":  "saisunee.p@fishmarket.co.th",
-        "sign":  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAAA0CAYAAACXWyagAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANdSURBVHhe7dftT1NnGAZw/5NlWWKcW5hDFze2maAoESsoZkJDe9oCQ1AKrkBbalt6rLxNaE9bKyLKa8UDJSJIKWWbgRmN8Q2zub/nWiizW8s5UD6YkfT6fTp97vv5cj09uZ+zZw8REREREREREREREREREe1itSYnMtdoF7gZjuHjj4qwsvonD+hDELtHYKxzo8pohVaw4HRZLXRCW1Zh79t/FmfK2zE6Hs+qn7LU7g7gq2/PQewe2xRsa1sIscWXm9b/y1DjxsXGIGZm/0Dg5syWvbQDdQ1ODNyOqgYqT69CCkyq1vukKRR8r0vW5+OvIYVl1d5MT56s4efeQNb9OcPc5IXdHtw2mNm55/D5I4p9PukO8g6exOLyX6n69cCIYm+me5EFNDfxArGJqcaJiUgiFUztj6JqSH39Udy69VCx/t2REsQTz9JqQyPqb+F7drsEoym7WZYzlhIvUalrT4UyN/capaUWHDp8Pi2oMz/UY98XR2FuuQ6dfmf/7uHR2Jb9NpsfnZ13t+zJSfWXfKlQqrQemAzXkr+93RFMz75KPmvKG3F34pfk88nSSygo2Jgn2ZiPvYPe6FXsX1p6C5PJhenob4r1nKYXXOjqeYDCogvY+2kJXM7hVEgO9yCGx5+jtNyG6OyL1Lo/NAPNqYtpYS4/foGaujZoyqpRpbsMzWkT8vNLkpeCDu8UPs8T0Ng0kNyzsPg0tVenv4L5+Tc8mEwV2svo98uoqGxF0XETRsf/nTfrHO4hfJZXAXNzeFN48tTGW7ROFAdhbe/DQjx9zrx3rtINTVkXBONgsv7J3rMYGPwdP7WGIcsrintyWmfXEEbGlrcMRjDaYKhWvxR099xBQ4OIxPKaas86b48Mh+shCk94UFwiovCYFV/mGxEO88NUkUFv2TYYq31j9iixtPSg3zeuWs8UDC/hwEEBPimBrwuM8IjZXa1zkrYyfWbsxIV6FyL31d+64MCQYk0KblynozOrinX6R4fbhw7P9h+bmYRqs+qe89p6tDiuqtZpB+7df4Te3hDkqQfbBjoxGYPZ0qnYdyM0hqZm5asyfWCTcgxWRygt/Piva3B2SBA9Eg/l/zT3aAXHiwUcK67G0RMGHPqmDDann4dCREREREREREREREREu9LfkySvFyec6XoAAAAASUVORK5CYII="
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170106",
@@ -765,7 +765,7 @@
         "department2":  "สบตส.",
         "role":  "user",
         "manager_email":  "nikorn.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170110",
@@ -777,7 +777,7 @@
         "department2":  "สบค.",
         "role":  "user",
         "manager_email":  "papimon.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170111",
@@ -789,7 +789,7 @@
         "department2":  "สวสช.",
         "role":  "user",
         "manager_email":  "supachai.j@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,9"
     },
     {
         "employee_id":  "07170115",
@@ -801,7 +801,7 @@
         "department2":  "สวสช.",
         "role":  "user",
         "manager_email":  "jaruwan.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,9"
     },
     {
         "employee_id":  "07170117",
@@ -813,7 +813,7 @@
         "department2":  "สป.กท.",
         "role":  "user",
         "manager_email":  "kanyaphak.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170118",
@@ -825,7 +825,7 @@
         "department2":  "สบ.1",
         "role":  "user",
         "manager_email":  "pornthip.t@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170120",
@@ -837,7 +837,7 @@
         "department2":  "สบตส.",
         "role":  "user",
         "manager_email":  "nikorn.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,10"
     },
     {
         "employee_id":  "07170121",
@@ -849,7 +849,7 @@
         "department2":  "สป.กท.",
         "role":  "user",
         "manager_email":  "pratum.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170122",
@@ -861,7 +861,7 @@
         "department2":  "สป.กท.",
         "role":  "user",
         "manager_email":  "pratum.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170133",
@@ -873,7 +873,7 @@
         "department2":  "ผสบ.",
         "role":  "user",
         "manager_email":  "montatip.j@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170140",
@@ -885,7 +885,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "thanachai.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170141",
@@ -897,7 +897,7 @@
         "department2":  "สบค.",
         "role":  "user",
         "manager_email":  "papimon.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170144",
@@ -909,7 +909,7 @@
         "department2":  "สป.กท.",
         "role":  "user",
         "manager_email":  "pratum.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170146",
@@ -921,7 +921,7 @@
         "department2":  "สบน.",
         "role":  "user",
         "manager_email":  "jiraporn.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170157",
@@ -933,7 +933,7 @@
         "department2":  "ผกป.",
         "role":  "user",
         "manager_email":  "wirote.r@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170158",
@@ -945,7 +945,7 @@
         "department2":  "ผปส.",
         "role":  "user",
         "manager_email":  "pimrada.a@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170161",
@@ -957,7 +957,7 @@
         "department2":  "สตป.",
         "role":  "user",
         "manager_email":  "patchareeya.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170162",
@@ -969,7 +969,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "thanachai.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170163",
@@ -981,7 +981,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "supbhachart.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,5,6,7,8"
     },
     {
         "employee_id":  "07170164",
@@ -993,7 +993,7 @@
         "department2":  "สบน.",
         "role":  "user",
         "manager_email":  "supbhachart.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170165",
@@ -1005,7 +1005,7 @@
         "department2":  "สยศ.",
         "role":  "user",
         "manager_email":  "suranee.w@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170167",
@@ -1017,7 +1017,7 @@
         "department2":  "สบน.",
         "role":  "user",
         "manager_email":  "jiraporn.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170169",
@@ -1029,7 +1029,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "kanokkorn.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170170",
@@ -1041,7 +1041,7 @@
         "department2":  "สบ.2",
         "role":  "user",
         "manager_email":  "weera.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,11"
     },
     {
         "employee_id":  "07170171",
@@ -1053,7 +1053,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "kanokkorn.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170174",
@@ -1065,7 +1065,7 @@
         "department2":  "สบ.1",
         "role":  "user",
         "manager_email":  "chanchai.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170175",
@@ -1077,7 +1077,7 @@
         "department2":  "สบคพ.",
         "role":  "user",
         "manager_email":  "sutak.j@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170176",
@@ -1089,7 +1089,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "preeda.y@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170177",
@@ -1101,7 +1101,7 @@
         "department2":  "ศขส.",
         "role":  "user",
         "manager_email":  "tawich.k@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,10"
     },
     {
         "employee_id":  "07170178",
@@ -1113,7 +1113,7 @@
         "department2":  "สป.กท.",
         "role":  "user",
         "manager_email":  "pratum.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,10,11"
     },
     {
         "employee_id":  "07170180",
@@ -1125,7 +1125,7 @@
         "department2":  "สบตส.",
         "role":  "user",
         "manager_email":  "nikorn.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,10"
     },
     {
         "employee_id":  "07170183",
@@ -1137,7 +1137,7 @@
         "department2":  "สทส.",
         "role":  "user",
         "manager_email":  "ranida.c@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,9,10,11"
     },
     {
         "employee_id":  "07170184",
@@ -1149,7 +1149,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "preeda.y@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,5,6,7,8"
     },
     {
         "employee_id":  "07170185",
@@ -1161,7 +1161,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "nitikhon.k@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,5,6,7,8"
     },
     {
         "employee_id":  "07170186",
@@ -1173,7 +1173,7 @@
         "department2":  "สบตส.",
         "role":  "user",
         "manager_email":  "wasanchai.j@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170187",
@@ -1185,7 +1185,7 @@
         "department2":  "สบค.",
         "role":  "user",
         "manager_email":  "nawan.k@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170189",
@@ -1197,7 +1197,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "preeda.y@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170192",
@@ -1209,7 +1209,7 @@
         "department2":  "สวพ.",
         "role":  "user",
         "manager_email":  "wasanchai.j@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170193",
@@ -1221,7 +1221,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "preeda.y@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,5,6,7,8"
     },
     {
         "employee_id":  "07170194",
@@ -1233,7 +1233,7 @@
         "department2":  "สวสช.",
         "role":  "user",
         "manager_email":  "athasit.t@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,9"
     },
     {
         "employee_id":  "07170195",
@@ -1245,7 +1245,7 @@
         "department2":  "สพด.",
         "role":  "admin",
         "manager_email":  "saisunee.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170196",
@@ -1257,7 +1257,7 @@
         "department2":  "สวพ.",
         "role":  "user",
         "manager_email":  "nirobon.t@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170198",
@@ -1269,7 +1269,7 @@
         "department2":  "สวส.",
         "role":  "user",
         "manager_email":  "teerapat.r@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170199",
@@ -1281,7 +1281,7 @@
         "department2":  "สกม.",
         "role":  "user",
         "manager_email":  "trakarnkul.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170202",
@@ -1293,7 +1293,7 @@
         "department2":  "สวส.",
         "role":  "user",
         "manager_email":  "suranee.w@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170203",
@@ -1305,7 +1305,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "athasit.t@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,5,6,7,8,9"
     },
     {
         "employee_id":  "07170204",
@@ -1317,7 +1317,7 @@
         "department2":  "ผกป.",
         "role":  "user",
         "manager_email":  "nopparat.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,9,10,11"
     },
     {
         "employee_id":  "07170206",
@@ -1329,7 +1329,7 @@
         "department2":  "สบ.1",
         "role":  "user",
         "manager_email":  "pornthip.t@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8,11"
     },
     {
         "employee_id":  "07170208",
@@ -1341,7 +1341,7 @@
         "department2":  "สกม.",
         "role":  "user",
         "manager_email":  "trakarnkul.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170209",
@@ -1353,7 +1353,7 @@
         "department2":  "สบค.",
         "role":  "user",
         "manager_email":  "trakarnkul.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170212",
@@ -1365,7 +1365,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "kanokkorn.s@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170213",
@@ -1377,7 +1377,7 @@
         "department2":  "สพด.",
         "role":  "user",
         "manager_email":  "saisunee.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170214",
@@ -1389,6 +1389,6 @@
         "department2":  "สกม.",
         "role":  "user",
         "manager_email":  "trakarnkul.p@fishmarket.co.th",
-        "sign":  ""
+        "premission":  "1,2,3,4,5,6,7,8"
     }
 ]

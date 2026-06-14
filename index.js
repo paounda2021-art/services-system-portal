@@ -7,29 +7,29 @@
 // 1. ตัวแปรสำหรับแก้ไขลิงก์ปลายทางของระบบต่างๆ (Configure System Links here)
 const SYSTEM_LINKS = {
   eOffice: {
-    main: "https://eoffice.fmo.go.th",
-    new: "https://eoffice.fmo.go.th/document/new",
-    inbox: "https://eoffice.fmo.go.th/inbox"
+    main: "https://fmo.eoffice.go.th/",
+    new: "https://fmo.eoffice.go.th/document/new",
+    inbox: "https://fmo.eoffice.go.th/inbox"
   },
   ahtm: {
-    main: "https://ahtm.fmo.go.th",
-    clock: "https://ahtm.fmo.go.th/attendance/clock-in",
-    leave: "https://ahtm.fmo.go.th/leave/request"
+    main: "https://fishmarket2.athm-hr.com/",
+    clock: "https://fishmarket2.athm-hr.com/attendance/clock-in",
+    leave: "https://fishmarket2.athm-hr.com/leave/request"
   },
   kpi: {
-    main: "kpi.html",
-    myKpi: "kpi.html?tab=evaluation",
-    submit: "kpi.html?tab=evaluation"
+    main: "https://fishmarket-pms.athm-hr.com/#/login",
+    myKpi: "https://fishmarket-pms.athm-hr.com/#/login",
+    submit: "https://fishmarket-pms.athm-hr.com/#/login"
   },
   carBooking: {
-    main: "deploy_latest/index.html",
-    book: "deploy_latest/index.html?view=bookings&action=book",
-    calendar: "deploy_latest/index.html?view=calendar"
+    main: "https://car-booking.fishmarket.co.th/",
+    book: "https://car-booking.fishmarket.co.th/",
+    calendar: "https://car-booking.fishmarket.co.th/"
   },
   workD: {
-    main: "https://workd.fmo.go.th",
-    compose: "https://workd.fmo.go.th/mail/compose",
-    inbox: "https://workd.fmo.go.th/mail/inbox"
+    main: "https://workd.go.th/",
+    compose: "https://workd.go.th/mail/compose",
+    inbox: "https://workd.go.th/mail/inbox"
   },
   itSupport: {
     main: "https://itsupport.fmo.go.th",
@@ -52,9 +52,9 @@ const SYSTEM_LINKS = {
     apply: "https://coreloan.fmo.go.th/apply"
   },
   myAccount: {
-    main: "https://myaccount.fmo.go.th",
-    ledger: "https://myaccount.fmo.go.th/ledger/entry",
-    report: "https://myaccount.fmo.go.th/financial-statement"
+    main: "https://acc.fishmarket.co.th/",
+    ledger: "https://acc.fishmarket.co.th/",
+    report: "https://acc.fishmarket.co.th/"
   },
   myketPro: {
     main: "https://myketpro.fmo.go.th",
@@ -63,34 +63,63 @@ const SYSTEM_LINKS = {
   }
 };
 
-// 2. ข้อมูลสิทธิ์ผู้ใช้งานจำลอง (Mock Users Permissions)
+// Map system IDs to numbers
+const SYSTEM_ID_MAP = {
+  "eOffice": 1,
+  "ahtm": 2,
+  "kpi": 3,
+  "carBooking": 4,
+  "workD": 5,
+  "itSupport": 6,
+  "checkPermission": 7,
+  "webRequest": 8,
+  "coreLoan": 9,
+  "myAccount": 10,
+  "myketPro": 11
+};
+
+const REVERSE_SYSTEM_ID_MAP = {
+  1: "eOffice",
+  2: "ahtm",
+  3: "kpi",
+  4: "carBooking",
+  5: "workD",
+  6: "itSupport",
+  7: "checkPermission",
+  8: "webRequest",
+  9: "coreLoan",
+  10: "myAccount",
+  11: "myketPro"
+};
+
+// 2. ข้อมูลสิทธิ์ผู้ใช้งานจำลอง (Mock Users Permissions) - ใช้รหัสตัวเลขแทนระบบงานตามภาพวาด
 const MOCK_USERS = {
   user_it: {
     name: "สมชาย รักบริการ",
     role: "นักวิชาการคอมพิวเตอร์",
     avatar: "สม",
-    allowed: ["eOffice", "ahtm", "kpi", "carBooking", "workD", "itSupport", "checkPermission", "webRequest"],
+    allowed: [1, 2, 3, 4, 5, 6, 7, 8],
     pendingTasks: 3
   },
   user_finance: {
     name: "พิมใจ ใฝ่บัญชี",
     role: "เจ้าหน้าที่บัญชีและการเงิน",
     avatar: "พิม",
-    allowed: ["eOffice", "ahtm", "kpi", "workD", "coreLoan", "myAccount", "myketPro"],
+    allowed: [1, 2, 3, 5, 9, 10, 11],
     pendingTasks: 4
   },
   user_driver: {
     name: "นพดล ขับขี่ดี",
     role: "พนักงานขับรถยนต์",
     avatar: "นพ",
-    allowed: ["ahtm", "kpi", "carBooking", "workD"],
+    allowed: [2, 3, 4, 5],
     pendingTasks: 1
   },
   user_exec: {
     name: "อนันต์ บริหารงาน",
     role: "ผู้อำนวยการ อสป.",
     avatar: "อน",
-    allowed: ["eOffice", "ahtm", "kpi", "carBooking", "workD", "itSupport", "checkPermission", "webRequest", "coreLoan", "myAccount", "myketPro"],
+    allowed: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
     pendingTasks: 6
   }
 };
@@ -99,6 +128,18 @@ document.addEventListener("DOMContentLoaded", () => {
   // Authentication State
   let isLoggedIn = false;
   let currentUserKey = "";
+  let currentUserObj = null;
+  let allUsers = [];
+
+  // โหลดรายชื่อผู้ใช้งานทั้งหมดจาก users.json
+  fetch('deploy_latest/users.json')
+    .then(response => response.json())
+    .then(data => {
+      allUsers = data;
+    })
+    .catch(err => {
+      console.error("Failed to load users.json:", err);
+    });
   
   // UI State
   let currentCategory = "all";
@@ -138,7 +179,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const loginModal = document.getElementById("login-modal");
   const closeLoginModal = document.getElementById("close-login-modal");
   const loginForm = document.getElementById("login-form");
-  const loginUserSelect = document.getElementById("login-user-select");
+  const loginEmployeeIdInput = document.getElementById("login-employee-id");
   const logoutBtn = document.getElementById("logout-btn");
   
   // Dashboard & Welcome Banner Elements
@@ -178,7 +219,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ----------------------------------------------------
   function filterSystems() {
     let visibleCount = 0;
-    const allowedList = isLoggedIn ? MOCK_USERS[currentUserKey].allowed : null;
+    const allowedList = isLoggedIn ? currentUserObj.allowed : null;
     
     // นับจำนวนการ์ดในแต่ละหมวดหมู่เพื่ออัปเดตตัวเลขบนแท็บ
     const counts = { all: 0, general: 0, it: 0, finance: 0 };
@@ -188,7 +229,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const category = card.getAttribute("data-category");
       
       // การคัดกรองการเข้าถึงตามสิทธิ์ (ถ้าล็อคอินแล้วจะเช็คสิทธิ์ ถ้ายังไม่ล็อคอินจะแสดงครบ 10 ระบบ)
-      const hasPermission = !isLoggedIn || allowedList.includes(sysId);
+      const hasPermission = !isLoggedIn || (allowedList && allowedList.includes(SYSTEM_ID_MAP[sysId]));
 
       // จัดการคลาสล็อคการใช้งานการ์ด
       if (isLoggedIn && hasPermission) {
@@ -313,24 +354,56 @@ document.addEventListener("DOMContentLoaded", () => {
   // ยืนยันการเข้าสู่ระบบ (Submit Login)
   loginForm.addEventListener("submit", (e) => {
     e.preventDefault();
-    const selectedUser = loginUserSelect.value;
-    performLogin(selectedUser);
+    const empIdInput = loginEmployeeIdInput.value.trim();
+    const errorMsg = document.getElementById("login-error-msg");
+    
+    // ค้นหาผู้ใช้งานในรายการ allUsers
+    const foundUser = allUsers.find(u => u.employee_id === empIdInput);
+    if (!foundUser) {
+      errorMsg.textContent = "ไม่พบรหัสพนักงานนี้ในระบบ";
+      errorMsg.style.display = "block";
+      return;
+    }
+    
+    errorMsg.style.display = "none";
+        // ทำความสะอาดชื่อคำนำหน้าและแปลงสิทธิ์
+    let cleanName = foundUser.name.replace(/^(นาย|นางสาว|นาง|น\.ส\.|ดร\.|ว่าที่\s*ร\.ต\.|นายนาย)\s*/, '').trim();
+    let avatarText = cleanName.substring(0, 2);
+    
+    // ดึงสิทธิ์จากคอลัมน์ premission (แยกด้วยจุลภาค)
+    let allowedNums = [];
+    if (foundUser.premission) {
+      allowedNums = foundUser.premission.split(',')
+        .map(x => x.trim())
+        .filter(x => x !== "")
+        .map(Number);
+    }
+    
+    const userObj = {
+      name: cleanName,
+      role: foundUser.position || foundUser.role || "เจ้าหน้าที่ อสป.",
+      avatar: avatarText || "พน",
+      allowed: allowedNums,
+      pendingTasks: allowedNums.length > 0 ? (allowedNums.length % 3) + 1 : 0
+    };
+    
+    performLogin(userObj, foundUser.employee_id);
   });
 
-  function performLogin(userKey) {
-    const user = MOCK_USERS[userKey];
-    if (!user) return;
+  function performLogin(userObj, userKey) {
+    if (!userObj) return;
 
     isLoggedIn = true;
     currentUserKey = userKey;
+    currentUserObj = userObj;
 
-    // บันทึกเซสชันลงใน localStorage สำหรับระบบย่อยใช้งานแบบ SSO
+    // บันทึกเซสชันลงใน localStorage สำหรับระบบย่อยใช้งานแบบ SSO (แปลงรหัสตัวเลขกลับเป็น String ID เพื่อรักษาความเข้ากันได้)
     const sessionData = {
       userKey: userKey,
-      name: user.name,
-      role: user.role,
-      avatar: user.avatar,
-      allowedSystems: user.allowed,
+      name: userObj.name,
+      role: userObj.role,
+      avatar: userObj.avatar,
+      allowedSystems: userObj.allowed.map(id => REVERSE_SYSTEM_ID_MAP[id] || id),
       loginTime: new Date().getTime()
     };
     localStorage.setItem("fmo_user_session", JSON.stringify(sessionData));
@@ -339,22 +412,22 @@ document.addEventListener("DOMContentLoaded", () => {
     loginWrapper.style.display = "none";
     userProfileBox.style.display = "flex";
     notificationBtn.style.display = "block";
-    userAvatar.querySelector("span").textContent = user.avatar;
-    userNameLabel.textContent = user.name;
-    userRoleLabel.textContent = user.role;
+    userAvatar.querySelector("span").textContent = userObj.avatar;
+    userNameLabel.textContent = userObj.name;
+    userRoleLabel.textContent = userObj.role;
 
     // 2. จัดการหน้า Welcome Banner & Dashboard
-    welcomeTitle.textContent = `สวัสดีคุณ${user.name} ยินดีต้อนรับสู่ระบบสารสนเทศกลาง อสป.`;
+    welcomeTitle.textContent = `สวัสดีคุณ${userObj.name} ยินดีต้อนรับสู่ระบบสารสนเทศกลาง อสป.`;
     welcomeSubtitle.textContent = `เข้าถึงระบบบริหารงานสะพานปลา ระบบบริการไอที และระบบงานการเงินได้ในจุดเดียวเพื่อความสะดวกรวดเร็วในการทำงาน`;
     dashboardStats.style.opacity = "1.0";
     dashboardStats.style.pointerEvents = "auto";
-    pendingTasksNum.textContent = user.pendingTasks;
-    document.getElementById("alert-counter").textContent = user.pendingTasks;
+    pendingTasksNum.textContent = userObj.pendingTasks;
+    document.getElementById("alert-counter").textContent = userObj.pendingTasks;
 
     // 3. กรองการแจ้งเตือนใน Sidebar ตามสิทธิ์
     document.querySelectorAll(".alert-item").forEach(item => {
       const targetSystem = item.getAttribute("data-target");
-      if (user.allowed.includes(targetSystem)) {
+      if (userObj.allowed.includes(SYSTEM_ID_MAP[targetSystem])) {
         item.style.display = "flex";
       } else {
         item.style.display = "none";
@@ -699,7 +772,14 @@ document.addEventListener("DOMContentLoaded", () => {
         try {
           const session = JSON.parse(sessionRaw);
           if (currentUserKey !== session.userKey) {
-            performLogin(session.userKey);
+            const userObj = {
+              name: session.name,
+              role: session.role,
+              avatar: session.avatar,
+              allowed: session.allowedSystems.map(sysKey => SYSTEM_ID_MAP[sysKey] || sysKey),
+              pendingTasks: session.pendingTasks || 2
+            };
+            performLogin(userObj, session.userKey);
           }
         } catch (err) {}
       } else if (isLoggedIn) {
@@ -711,6 +791,18 @@ document.addEventListener("DOMContentLoaded", () => {
       updateCarBookingBadgeStatus();
     }
   });
+
+  // Dynamic Online Users Counter (ตัวนับเค้าเตอร์คนออนไลน์แบบสุ่มมีความเคลื่อนไหว)
+  const onlineUsersCountEl = document.getElementById("online-users-count");
+  if (onlineUsersCountEl) {
+    let currentOnline = Math.floor(Math.random() * 21) + 15;
+    onlineUsersCountEl.textContent = currentOnline + " คน";
+    setInterval(() => {
+      const change = Math.floor(Math.random() * 3) - 1;
+      currentOnline = Math.max(5, currentOnline + change);
+      onlineUsersCountEl.textContent = currentOnline + " คน";
+    }, 12000);
+  }
 
   // เรียกใช้ตั้งแต่วินาทีแรก และรันทุกๆ 1 วินาที
   updateClock();
@@ -724,7 +816,14 @@ document.addEventListener("DOMContentLoaded", () => {
   if (existingSession) {
     try {
       const session = JSON.parse(existingSession);
-      performLogin(session.userKey);
+      const userObj = {
+        name: session.name,
+        role: session.role,
+        avatar: session.avatar,
+        allowed: session.allowedSystems.map(sysKey => SYSTEM_ID_MAP[sysKey] || sysKey),
+        pendingTasks: session.pendingTasks || 2
+      };
+      performLogin(userObj, session.userKey);
     } catch (e) {
       localStorage.removeItem("fmo_user_session");
       performLogout();

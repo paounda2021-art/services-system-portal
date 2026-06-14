@@ -1,7 +1,7 @@
 # Extract cell signatures from the zip package in memory first (to avoid Excel file lock)
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 Add-Type -AssemblyName System.Drawing
-$zip = [System.IO.Compression.ZipFile]::OpenRead("d:\Cars\users.xlsx")
+$zip = [System.IO.Compression.ZipFile]::OpenRead("C:\Users\FMO-10\services-system-portal\users.xlsx")
 
 $getSignBase64 = {
     param($imagePath)
@@ -63,7 +63,7 @@ $zip.Dispose()
 # Now open Excel to read metadata
 $excel = New-Object -ComObject Excel.Application
 $excel.Visible = $false
-$workbook = $excel.Workbooks.Open("d:\Cars\users.xlsx")
+$workbook = $excel.Workbooks.Open("C:\Users\FMO-10\services-system-portal\users.xlsx")
 $sheet = $workbook.Sheets.Item(1)
 
 # Find header columns
@@ -97,13 +97,7 @@ while ($true) {
         $val = $sheet.Cells.Item($row, $col).Value2
         
         $username = $sheet.Cells.Item($row, 2).Text.Trim()
-        # Check sign column (col 10) and override error code with extracted base64 signatures
-        if ($col -eq 10) {
-            if ($username -eq "piyawan.k") { $val = $piyawanSign }
-            elseif ($username -eq "saisunee.p") { $val = $saisuneeSign }
-            elseif ($username -eq "chalong.c") { $val = $chalongSign }
-            else { $val = "" }
-        }
+        # No override for column 10 (premission column)
         
         # Override name spelling for chalong.c to match user request
         if ($col -eq 4 -and $username -eq "chalong.c") {
@@ -131,5 +125,5 @@ $workbook.Close($false)
 $excel.Quit()
 [System.Runtime.Interopservices.Marshal]::ReleaseComObject($excel) | Out-Null
 
-$users | ConvertTo-Json -Depth 10 | Out-File -FilePath "d:\Cars\users.json" -Encoding utf8
+$users | ConvertTo-Json -Depth 10 | Out-File -FilePath "C:\Users\FMO-10\services-system-portal\deploy_latest\users.json" -Encoding utf8
 Write-Host "Successfully converted $($users.Count) users from users.xlsx to users.json"

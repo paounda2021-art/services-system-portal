@@ -959,22 +959,18 @@
       <div class="login-modal-header">
         <img src="logoFMO.png" alt="โลโก้ อสป." class="login-logo">
         <h3>เข้าสู่ระบบกลาง อสป.<br>(FMO Portal Sign-In)</h3>
-        <p>กรุณาเลือกบัญชีผู้ใช้จำลองเพื่อเข้าตรวจสอบระดับสิทธิ์</p>
+        <p>กรุณากรอกรหัสพนักงานเพื่อเข้าตรวจสอบระดับสิทธิ์การใช้งานระบบงาน</p>
       </div>
       <form id="login-form">
         <div class="form-group">
-          <label for="login-user-select">เลือกตัวตนผู้ใช้:</label>
-          <select id="login-user-select" class="form-control-select">
-            <option value="user_it">คุณสมชาย (ไอที/ทั่วไป - สิทธิ์ 8 ระบบ)</option>
-            <option value="user_finance">คุณพิมใจ (บัญชี/ตลาด - สิทธิ์ 7 ระบบ)</option>
-            <option value="user_driver">คุณนพดล (พนักงานขับรถ - สิทธิ์ 4 ระบบ)</option>
-            <option value="user_exec">คุณอนันต์ (ผู้อำนวยการ - สิทธิ์ครบ 11 ระบบ)</option>
-          </select>
+          <label for="login-employee-id">รหัสพนักงาน (Employee ID):</label>
+          <input type="text" id="login-employee-id" class="form-control-input" placeholder="ระบุรหัสพนักงาน เช่น 1111111 หรือ 11145374" required style="width: 100%; box-sizing: border-box; padding: 10px 14px; border: 1px solid var(--border-color); border-radius: var(--radius-md); background: var(--bg-card); color: var(--text-main); font-size: 1rem; transition: var(--transition-smooth);">
         </div>
         <div class="form-group">
-          <label>รหัสผ่าน:</label>
-          <input type="password" value="••••••••" class="form-control-input" readonly>
+          <label for="login-password">รหัสผ่าน:</label>
+          <input type="password" id="login-password" value="••••••••" class="form-control-input" placeholder="ระบุรหัสผ่าน" readonly style="width: 100%; box-sizing: border-box; padding: 10px 14px; border: 1px solid var(--border-color); border-radius: var(--radius-md); background: rgba(0,0,0,0.05); color: var(--text-muted); font-size: 1rem; cursor: not-allowed;">
         </div>
+        <div id="login-error-msg" style="color: #e53e3e; font-size: 0.875rem; margin-bottom: 1rem; display: none; text-align: left; font-weight: 500;"></div>
         <button type="submit" id="submit-login-btn" class="btn btn-primary btn-block-login">เข้าสู่ระบบ (Sign In)</button>
       </form>
     </div>
@@ -988,10 +984,12 @@
         <p>ที่อยู่: 149 ซอยเจริญกรุง 58 แขวงยานนาวา เขตสาทร กรุงเทพมหานคร</p>
         <p>เบอร์ติดต่อ: 02-211-7300 ต่อ 102 | อีเมล: it@fishmarket.co.th</p>
       </div>
-      <div class="footer-links">
-        <a href="#manual">คู่มือการใช้งานระบบ</a>
-        <a href="#policy">นโยบายความมั่นคงปลอดภัยข้อมูล</a>
-        <a href="#faq">คำถามที่พบบ่อย (FAQ)</a>
+      <div class="footer-counter">
+        <div class="online-indicator">
+          <span class="pulse-dot"></span>
+          <span class="counter-text">ผู้ใช้งานออนไลน์ขณะนี้</span>
+        </div>
+        <div class="counter-number" id="online-users-count">--</div>
       </div>
     </div>
     <div class="footer-bottom">
