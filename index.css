@@ -709,10 +709,7 @@ body.mint-coastal-theme .tab-btn.active .tab-count {
 }
 
 .card-meta {
-  margin-top: auto;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  display: none !important;
 }
 
 .meta-badge {
