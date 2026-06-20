@@ -144,6 +144,18 @@
         "premission":  "1,2,3,4,5,6,7,8"
     },
     {
+        "employee_id":  "07170005",
+        "username":  "chob.h",
+        "email":  "chob.h@fishmarket.co.th",
+        "name":  "นายชอบ  หัวดอน",
+        "position":  "เจ้าหน้าที่บริหารงานทั่วไป / รักษาการหัวหน้าสำนักงาน",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "สป.สค.",
+        "role":  "user",
+        "manager_email":  "chanchai.c@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
         "employee_id":  "07170006",
         "username":  "piyawan.k",
         "email":  "piyawan.k@fishmarket.co.th",
@@ -168,6 +180,30 @@
         "premission":  "1,2,3,4,5,6,7,8,10,11"
     },
     {
+        "employee_id":  "07170010",
+        "username":  "arid.i",
+        "email":  "arid.i@fishmarket.co.th",
+        "name":  "นายอารีด  อิสมาแอล",
+        "position":  "หัวหน้าสำนักงาน",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.สต.",
+        "role":  "user",
+        "manager_email":  "chanchai.c@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
+        "employee_id":  "07170015",
+        "username":  "phayongret.w",
+        "email":  "payongret.w@fishmarket.co.th",
+        "name":  "นายพยงเรศ  วงษ์สว่าง",
+        "position":  "หัวหน้าสำนักงาน",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ภก.",
+        "role":  "user",
+        "manager_email":  "supranee.p@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
         "employee_id":  "07170017",
         "username":  "weera.s",
         "email":  "weera.s@fishmarket.co.th",
@@ -180,6 +216,30 @@
         "premission":  "1,2,3,4,5,6,7,8,11"
     },
     {
+        "employee_id":  "07170019",
+        "username":  "atthakorn.k",
+        "email":  "atthakorn.k@fishmarket.co.th",
+        "name":  "นายอรรถกร  ขุนราม",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ภก.",
+        "role":  "user",
+        "manager_email":  "khemiga.s@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170020",
+        "username":  "suthit.k",
+        "email":  "sutit.k@fishmarket.co.th",
+        "name":  "นายสุทิศ  คงเกิด",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ปน.",
+        "role":  "user",
+        "manager_email":  "srichittra.w@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
         "employee_id":  "07170021",
         "username":  "supranee.p",
         "email":  "supranee.p@fishmarket.co.th",
@@ -189,6 +249,18 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "supbhachart.c@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
+        "employee_id":  "07170022",
+        "username":  "suthep.k",
+        "email":  "sutep.k@fishmarket.co.th",
+        "name":  "นายสุเทพ  คงเกิด",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "ทร.ลส.",
+        "role":  "user",
+        "manager_email":  "chanchai.c@fishmarket.co.th",
         "premission":  "1,2,3,5,6,7,8,10,11"
     },
     {
@@ -276,6 +348,18 @@
         "premission":  "1,2,3,4,5,6,7,8"
     },
     {
+        "employee_id":  "07170033",
+        "username":  "nattanan.i",
+        "email":  "nattanan.i@fishmarket.co.th",
+        "name":  "น.ส.ณัฐนันท์  อินทร์จันทร์",
+        "position":  "เจ้าหน้าที่การเงินและบัญชี",
+        "department1":  "ฝสป.ทร. 2",
+        "department2":  "สป.สค.",
+        "role":  "user",
+        "manager_email":  "chob.h@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
         "employee_id":  "07170034",
         "username":  "suranee.w",
         "email":  "suranee.w@fishmarket.co.th",
@@ -288,6 +372,18 @@
         "premission":  "1,2,3,4,5,6,7,8"
     },
     {
+        "employee_id":  "07170035",
+        "username":  "tusawan.s",
+        "email":  "tusawan.s@fishmarket.co.th",
+        "name":  "นางทัศวรรณ  ศรีชัย",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "ทร.อศ.",
+        "role":  "user",
+        "manager_email":  "tusawan.s@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
         "employee_id":  "07170036",
         "username":  "siriruethai.r",
         "email":  "siriruethai.r@fishmarket.co.th",
@@ -298,6 +394,18 @@
         "role":  "user",
         "manager_email":  "wasanchai.j@fishmarket.co.th",
         "premission":  "1,2,3,4,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170037",
+        "username":  "patthaping.s",
+        "email":  "phatphing.s@fishmarket.co.th",
+        "name":  "นางพัทพิงค์  สันทองสังโยธิน",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "ทร.สข.",
+        "role":  "user",
+        "manager_email":  "thunyakorn.k@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
     },
     {
         "employee_id":  "07170038",
@@ -336,6 +444,18 @@
         "premission":  "1,2,3,4,5,6,7,8"
     },
     {
+        "employee_id":  "07170042",
+        "username":  "pansit.n",
+        "email":  "pansit.n@fishmarket.co.th",
+        "name":  "นายปานสิทธิ์  นุภักดิ์",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ปน.",
+        "role":  "user",
+        "manager_email":  "srichittra.w@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
         "employee_id":  "07170043",
         "username":  "kanapol.k",
         "email":  "kanapol.k@fishmarket.co.th",
@@ -348,6 +468,30 @@
         "premission":  "1,2,3,4,5,6,7,8"
     },
     {
+        "employee_id":  "07170044",
+        "username":  "siwakorn.p",
+        "email":  "siwakorn.p@fishmarket.co.th",
+        "name":  "นายศิวกร  ภักดิ์กำเลา",
+        "position":  "เจ้าหน้าที่การเงินและบัญชี",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ปน.",
+        "role":  "user",
+        "manager_email":  "srichittra.w@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170045",
+        "username":  "nichnirund.p",
+        "email":  "nijnirun.p@fishmarket.co.th",
+        "name":  "นายนิจนิรันดร์  พาหา",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "สป.สป.",
+        "role":  "user",
+        "manager_email":  "katsuda.t@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
         "employee_id":  "07170046",
         "username":  "ittichai.p",
         "email":  "ittichai.p@fishmarket.co.th",
@@ -358,6 +502,30 @@
         "role":  "user",
         "manager_email":  "pratum.c@fishmarket.co.th",
         "premission":  "1,2,3,4,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170047",
+        "username":  "phirom.b",
+        "email":  "pirom.b@fishmarket.co.th",
+        "name":  "นายพิรมณ์  บุญชู",
+        "position":  "เจ้าหน้าที่การเงินและบัญชี",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "สป.สค.",
+        "role":  "user",
+        "manager_email":  "chob.h@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170048",
+        "username":  "viroon.s",
+        "email":  "wirun.s@fishmarket.co.th",
+        "name":  "นายวิรุณ  แสงศรี",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร.1",
+        "department2":  "ทร.สฎ.",
+        "role":  "user",
+        "manager_email":  "kasem.s@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
     },
     {
         "employee_id":  "07170049",
@@ -405,7 +573,7 @@
         "department2":  "สป.กท.",
         "role":  "user",
         "manager_email":  "pratum.c@fishmarket.co.th",
-        "premission":  "1,2,3,4,5,6,7,8"
+        "premission":  "1,2,3,5,6,7,8"
     },
     {
         "employee_id":  "07170054",
@@ -417,7 +585,7 @@
         "department2":  "ศขส.",
         "role":  "user",
         "manager_email":  "pichai.k@fishmarket.co.th",
-        "premission":  "1,2,3,4,5,6,7,8,10,11"
+        "premission":  "1,2,3,5,6,7,8,10,11"
     },
     {
         "employee_id":  "07170055",
@@ -429,6 +597,18 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "chanchai.c@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
+        "employee_id":  "07170056",
+        "username":  "thunyakorn.k",
+        "email":  "thunyakorn.k@fishmarket.co.th",
+        "name":  "นายธันยากร  กลับดี",
+        "position":  "เจ้าหน้าที่บริหารงานทั่วไป",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "ทร.สข.",
+        "role":  "user",
+        "manager_email":  "supranee.p@fishmarket.co.th",
         "premission":  "1,2,3,5,6,7,8,10,11"
     },
     {
@@ -444,6 +624,30 @@
         "premission":  "1,2,3,4,5,6,7,8"
     },
     {
+        "employee_id":  "07170058",
+        "username":  "thanachord.a",
+        "email":  "thanachord.a@fishmarket.co.th",
+        "name":  "นายธนะโชติ  เอี่ยมสุวรรณ",
+        "position":  "เจ้าหน้าที่การเงินและบัญชี",
+        "department1":  "ฝ.สป.ทร.1",
+        "department2":  "ทร.ตร.",
+        "role":  "user",
+        "manager_email":  "chanchai.c@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
+        "employee_id":  "07170059",
+        "username":  "srichittra.w",
+        "email":  "srichittra.w@fishmarket.co.th",
+        "name":  "นางศรีจิตรา  วรศาสตร์",
+        "position":  "หัวหน้าสำนักงาน",
+        "department1":  "ฝ.ปส.ทร. 2",
+        "department2":  "ทร.ปน.",
+        "role":  "user",
+        "manager_email":  "supranee.p@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
         "employee_id":  "07170060",
         "username":  "thongchai.h",
         "email":  "thongchai.h@fishmarket.co.th",
@@ -454,6 +658,18 @@
         "role":  "user",
         "manager_email":  "kanyaphak.s@fishmarket.co.th",
         "premission":  "1,2,3,4,5,6,7,8,10,11"
+    },
+    {
+        "employee_id":  "07170061",
+        "username":  "thankhun.j",
+        "email":  "tankhun.c@fishmarket.co.th",
+        "name":  "นายแทนคุณ  จะปะกิยา",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.รน.",
+        "role":  "user",
+        "manager_email":  "kitiya.a@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
     },
     {
         "employee_id":  "07170062",
@@ -480,6 +696,18 @@
         "premission":  "1,2,3,4,5,6,7,8,9"
     },
     {
+        "employee_id":  "07170064",
+        "username":  "wasan.m",
+        "email":  "wasan.m@fishmarket.co.th",
+        "name":  "นายวสันต์  มะดิง",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "สป.สค.",
+        "role":  "user",
+        "manager_email":  "chob.h@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
         "employee_id":  "07170065",
         "username":  "ranida.c",
         "email":  "ranida.c@fishmarket.co.th",
@@ -504,6 +732,30 @@
         "premission":  "1,2,3,4,5,6,7,8"
     },
     {
+        "employee_id":  "07170067",
+        "username":  "jantima.c",
+        "email":  "jantima.c@fishmarket.co.th",
+        "name":  "น.ส.จันทิมา  ชโลธร",
+        "position":  "นักบัญชี",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ปน.",
+        "role":  "user",
+        "manager_email":  "srichittra.w@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
+        "employee_id":  "07170069",
+        "username":  "wanwisa.k",
+        "email":  "wanwisa.k@fishmarket.co.th",
+        "name":  "น.ส.วันวิสาข์  วัฒนเดช",
+        "position":  "นักบัญชี",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.รน.",
+        "role":  "user",
+        "manager_email":  "kitiya.a@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
         "employee_id":  "07170070",
         "username":  "thachathon.p",
         "email":  "thachatthon.p@fishmarket.co.th",
@@ -514,6 +766,66 @@
         "role":  "user",
         "manager_email":  "sarena.m@fishmarket.co.th",
         "premission":  "1,2,3,4,5,6,7,8,10"
+    },
+    {
+        "employee_id":  "07170071",
+        "username":  "anuwat.p",
+        "email":  "anuwat.p@fishmarket.co.th",
+        "name":  "นายอนุวัชร  พร้อมมูล",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ปน.",
+        "role":  "user",
+        "manager_email":  "srichittra.w@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170072",
+        "username":  "komsun.j",
+        "email":  "khomsan.j@fishmarket.co.th",
+        "name":  "นายคมสันต์   จันดำ",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "ทร.สข.",
+        "role":  "user",
+        "manager_email":  "thunyakorn.k@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170073",
+        "username":  "sapphanyoo.k",
+        "email":  "sappanyoo.k@fishmarket.co.th",
+        "name":  "นายสัพพัญญู  เกื้อกูล",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ภก.",
+        "role":  "user",
+        "manager_email":  "payongret.w@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170074",
+        "username":  "tanadol.c",
+        "email":  "thanadol.c@fishmarket.co.th",
+        "name":  "นายธนดล  จันทมัตตุการ",
+        "position":  "เจ้าหน้าที่นโยบายและแผน",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "ทร.สข.",
+        "role":  "user",
+        "manager_email":  "thunyakorn.k@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170075",
+        "username":  "tawan.s",
+        "email":  "tawan.s@fishmarket.co.th",
+        "name":  "นายเทวัญ",
+        "position":  "สันตะพันธ์ุ",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "ทร.สข.",
+        "role":  "user",
+        "manager_email":  "thunyakorn.k@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
     },
     {
         "employee_id":  "07170076",
@@ -588,6 +900,18 @@
         "premission":  "1,2,3,4,5,6,7,8"
     },
     {
+        "employee_id":  "07170083",
+        "username":  "mattalmisi.m",
+        "email":  "mattalmisi.m@fishmarket.co.th",
+        "name":  "นายมะตัลมีซี  มะและ",
+        "position":  "เจ้าหน้าที่การเงินและบัญชี",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ปน.",
+        "role":  "user",
+        "manager_email":  "srichittra.w@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
         "employee_id":  "07170084",
         "username":  "patchareeya.s",
         "email":  "patchareeya.s@fishmarket.co.th",
@@ -660,6 +984,18 @@
         "premission":  "1,2,3,4,5,6,7,8"
     },
     {
+        "employee_id":  "07170090",
+        "username":  "noppachai.b",
+        "email":  "noppachai.b@fishmarket.co.th",
+        "name":  "นายนพชัย  บุณยทรรศนีย์",
+        "position":  "บุคลากร",
+        "department1":  "ฝบร.",
+        "department2":  "สบค.-ผอร.",
+        "role":  "user",
+        "manager_email":  "kanapol.k@fishmarket.co.th",
+        "premission":  "1,2,3,4,5,6,7,8"
+    },
+    {
         "employee_id":  "07170091",
         "username":  "arochar.w",
         "email":  "arochar.v@fishmarket.co.th",
@@ -670,6 +1006,18 @@
         "role":  "user",
         "manager_email":  "thanida.t@fishmarket.co.th",
         "premission":  "1,2,3,4,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170092",
+        "username":  "suppawat.a",
+        "email":  "suphawat.a@fishmarket.co.th",
+        "name":  "นายศุภวัตร  อัตตโนคติ",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.รน.",
+        "role":  "user",
+        "manager_email":  "kitiya.a@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
     },
     {
         "employee_id":  "07170093",
@@ -694,6 +1042,30 @@
         "role":  "user",
         "manager_email":  "thanida.p@fishmarket.co.th",
         "premission":  "1,2,3,4,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170096",
+        "username":  "rutaichanok.y",
+        "email":  "ruthaichanok.y@fishmarket.co.th",
+        "name":  "นางฤทัยชนก  โยธวาทินสกุล",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.รน.",
+        "role":  "user",
+        "manager_email":  "kitiya.a@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
+        "employee_id":  "07170097",
+        "username":  "laksamee.p",
+        "email":  "laksamee.p@fishmarket.co.th",
+        "name":  "น.ส.ลักษณมี  พรหมน้อย",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.รน.",
+        "role":  "user",
+        "manager_email":  "kitiya.a@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
     },
     {
         "employee_id":  "07170098",
@@ -732,6 +1104,18 @@
         "premission":  "1,2,3,4,5,6,7,8"
     },
     {
+        "employee_id":  "07170101",
+        "username":  "ratchapol.w",
+        "email":  "ratchapon.w@fishmarket.co.th",
+        "name":  "นายรัชพล  วรศาสตร์",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "ทร.อศ.",
+        "role":  "user",
+        "manager_email":  "tusawan.s@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
         "employee_id":  "07170102",
         "username":  "witchayaphon​.c",
         "email":  "witchayaphon.c@fishmarket.co.th",
@@ -751,7 +1135,7 @@
         "position":  "เจ้าหน้าที่ธุรการ",
         "department1":  "ฝบง.",
         "department2":  "สพด.",
-        "role":  "admin",
+        "role":  "user",
         "manager_email":  "saisunee.p@fishmarket.co.th",
         "premission":  "1,2,3,4,5,6,7,8"
     },
@@ -766,6 +1150,42 @@
         "role":  "user",
         "manager_email":  "nikorn.c@fishmarket.co.th",
         "premission":  "1,2,3,4,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170107",
+        "username":  "neunghathai.y",
+        "email":  "nuenghathai.y@fishmarket.co.th",
+        "name":  "น.ส.หนึ่งหทัย  ยอดมณี",
+        "position":  "เจ้าหน้าที่การเงินและบัญชี",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.รน.",
+        "role":  "user",
+        "manager_email":  "kitiya.a@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
+        "employee_id":  "07170108",
+        "username":  "jirasak.j",
+        "email":  "jirasak.j@fishmarket.co.th",
+        "name":  "นายจิรศักดิ์  จังกินา",
+        "position":  "เจ้าหน้าที่การเงินและบัญชี",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ภก.",
+        "role":  "user",
+        "manager_email":  "payongret.w@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170109",
+        "username":  "jidapa.v",
+        "email":  "jidapa.v@fishmarket.co.th",
+        "name":  "น.ส.จิดาภา  วาระหัส",
+        "position":  "เจ้าหน้าที่การเงินและบัญชี",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.สต.",
+        "role":  "user",
+        "manager_email":  "arid.i@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
     },
     {
         "employee_id":  "07170110",
@@ -792,8 +1212,44 @@
         "premission":  "1,2,3,4,5,6,7,8,9"
     },
     {
+        "employee_id":  "07170112",
+        "username":  "sonthi.n",
+        "email":  "sonthi.n@fishmarket.co.th",
+        "name":  "นายสนธิ  หนูสง",
+        "position":  "เจ้าหน้าที่บริหารงานทั่วไป",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ภก.",
+        "role":  "user",
+        "manager_email":  "payongret.w@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170113",
+        "username":  "salinthip.t",
+        "email":  "salintip.t@fishmarket.co.th",
+        "name":  "น.ส.สลิลทิพย์  ทองคำ",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ปน.",
+        "role":  "user",
+        "manager_email":  "srichittra.w@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170114",
+        "username":  "metawee.f",
+        "email":  "metawee.f@fishmarket.co.th",
+        "name":  "น.ส.เมธาวี  ฟิตประยูร",
+        "position":  "เจ้าหน้าที่บริหารงานทั่วไป",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ภก.",
+        "role":  "user",
+        "manager_email":  "payongret.w@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
         "employee_id":  "07170115",
-        "username":  "kanlaya.w",
+        "username":  "kanlaya.s",
         "email":  "kanlaya.s@fishmarket.co.th",
         "name":  "นางกัลยา  วงศ์สุวรรณ",
         "position":  "เจ้าหน้าที่วิเคราะห์สินเชื่อ",
@@ -813,7 +1269,7 @@
         "department2":  "สป.กท.",
         "role":  "user",
         "manager_email":  "kanyaphak.s@fishmarket.co.th",
-        "premission":  "1,2,3,4,5,6,7,8"
+        "premission":  "1,2,3,4,5,6,7,8,10,11"
     },
     {
         "employee_id":  "07170118",
@@ -864,6 +1320,66 @@
         "premission":  "1,2,3,4,5,6,7,8"
     },
     {
+        "employee_id":  "07170123",
+        "username":  "sutinee.s",
+        "email":  "sutinee.s@fishmarket.co.th",
+        "name":  "น.ส.สุธินี  สังปริเมน",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "ทร.ชพ.",
+        "role":  "user",
+        "manager_email":  "noppachai.b@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170126",
+        "username":  "kasem.s",
+        "email":  "kasem.s@fishmarket.co.th",
+        "name":  "นายเกษม  สุขวิเศษ",
+        "position":  "เจ้าหน้าที่บริหารงานทั่วไป",
+        "department1":  "ฝ.สป.ทร.1",
+        "department2":  "ทร.สฎ.",
+        "role":  "user",
+        "manager_email":  "chanchai.c@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
+        "employee_id":  "07170127",
+        "username":  "montri.p",
+        "email":  "montree.ph@fishmarket.co.th",
+        "name":  "นายมนตรี  ภิโสรมย์",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร.1",
+        "department2":  "ทร.ชพ.",
+        "role":  "user",
+        "manager_email":  "noppachai.b@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170131",
+        "username":  "narongrit.s",
+        "email":  "narongrit.s@fishmarket.co.th",
+        "name":  "นายณรงค์ฤทธิ  สังปริเมน",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "ทร.ลส.",
+        "role":  "user",
+        "manager_email":  "sutep.k@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170132",
+        "username":  "tawatchai.c",
+        "email":  "tawachai.c@fishmarket.co.th",
+        "name":  "นายธวัชชัย  เชื้อพุทธ",
+        "position":  "เจ้าหน้าที่การเงินและบัญชี",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "ทร.อศ.",
+        "role":  "user",
+        "manager_email":  "tusawan.s@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
         "employee_id":  "07170133",
         "username":  "sirinya.y",
         "email":  "sirinya.y@fishmarket.co.th",
@@ -874,6 +1390,66 @@
         "role":  "user",
         "manager_email":  "montatip.j@fishmarket.co.th",
         "premission":  "1,2,3,4,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170134",
+        "username":  "apdunmanup.m",
+        "email":  "abdulmanap.m@fishmarket.co.th",
+        "name":  "นายอับดุลมานัพ  หมาดเหยด",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.สต.",
+        "role":  "user",
+        "manager_email":  "arid.i@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170135",
+        "username":  "narit.s",
+        "email":  "narit.s@fishmarket.co.th",
+        "name":  "นายนฤทธิ์  ศรีชัย",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ปน.",
+        "role":  "user",
+        "manager_email":  "srichittra.w@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170136",
+        "username":  "ackarawat.b",
+        "email":  "akkarawat.b@fishmarket.co.th",
+        "name":  "นายอัครวัฒน์  บุญสุวรรณ",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ปน.",
+        "role":  "user",
+        "manager_email":  "srichittra.w@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170137",
+        "username":  "muhammadadha.m",
+        "email":  "muhammadattha.m@fishmarket.co.th",
+        "name":  "ว่าที่ร.ต.มูฮำหมัดอัฎฮา  มะ",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.สต.",
+        "role":  "user",
+        "manager_email":  "arid.i@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170139",
+        "username":  "vanvisa.k",
+        "email":  "wanwisak.k@fishmarket.co.th",
+        "name":  "น.ส.วันวิสาข์  แก้วเคารพ",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ปน.",
+        "role":  "user",
+        "manager_email":  "srichittra.w@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
     },
     {
         "employee_id":  "07170140",
@@ -900,6 +1476,30 @@
         "premission":  "1,2,3,4,5,6,7,8"
     },
     {
+        "employee_id":  "07170142",
+        "username":  "wareerat .w",
+        "email":  "wareerat.w@fishmarket.co.th",
+        "name":  "น.ส.วารีรัตน์  วัฒนบัญชา",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "สป.นศ.",
+        "role":  "user",
+        "manager_email":  "khemiga.s@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
+        "employee_id":  "07170143",
+        "username":  "firadao.i",
+        "email":  "firadao.i@fishmarket.co.th",
+        "name":  "นางฟิรดาวส์  อินทรชิต",
+        "position":  "เจ้าหน้าที่นโยบายและแผน",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ปน.",
+        "role":  "user",
+        "manager_email":  "srichittra.w@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
         "employee_id":  "07170144",
         "username":  "yuvavan.c",
         "email":  "yuwawan.c@fishmarket.co.th",
@@ -922,6 +1522,90 @@
         "role":  "user",
         "manager_email":  "jiraporn.p@fishmarket.co.th",
         "premission":  "1,2,3,4,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170147",
+        "username":  "manop.n",
+        "email":  "manop.n@fishmarket.co.th",
+        "name":  "นายมานพ  เนตรวงค์",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "ทร.อศ.",
+        "role":  "user",
+        "manager_email":  "tusawan.s@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170148",
+        "username":  "panuwat.l",
+        "email":  "panuwat.l@fishmarket.co.th",
+        "name":  "นายภานุวัฒน์  ลาดจันทึก",
+        "position":  "เจ้าหน้าที่การเงินและบัญชี",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "ทร.อศ.",
+        "role":  "user",
+        "manager_email":  "tusawan.s@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170149",
+        "username":  "suntorn.k",
+        "email":  "suntorn.k@fishmarket.co.th",
+        "name":  "นายสุนทร  เกื้อช่วย",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.รน.",
+        "role":  "user",
+        "manager_email":  "kitiya.a@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170150",
+        "username":  "ratmongkhon.b",
+        "email":  "ratmongkhon.b@fishmarket.co.th",
+        "name":  "นายรัฐมงคล  บูก๋ง",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.รน.",
+        "role":  "user",
+        "manager_email":  "kitiya.a@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170151",
+        "username":  "arida.e",
+        "email":  "arida.a@fishmarket.co.th",
+        "name":  "น.ส.อาริดา  เอี่ยมโชติ",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "สป.สป.",
+        "role":  "user",
+        "manager_email":  "katsuda.t@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
+        "employee_id":  "07170152",
+        "username":  "somchai.s",
+        "email":  "somchai.s@fishmarket.co.th",
+        "name":  "นายสมชาย  สมบูรณ์ผล",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 1",
+        "department2":  "สป.สป.",
+        "role":  "user",
+        "manager_email":  "katsuda.t@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
+    },
+    {
+        "employee_id":  "07170153",
+        "username":  "somchan.t",
+        "email":  "somcharn.t@fishmarket.co.th",
+        "name":  "นายสมชาญ  ตรีมิน",
+        "position":  "เจ้าหน้าที่ธุรการ",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ปน.",
+        "role":  "user",
+        "manager_email":  "srichittra.w@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8"
     },
     {
         "employee_id":  "07170157",
@@ -1056,6 +1740,30 @@
         "premission":  "1,2,3,4,5,6,7,8"
     },
     {
+        "employee_id":  "07170172",
+        "username":  "teerawut.y",
+        "email":  "teerawut.y@fishmarket.co.th",
+        "name":  "นายธีรวุฒิ  เยพิทักษ์",
+        "position":  "นักบัญชี",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "ทร.ภก.",
+        "role":  "user",
+        "manager_email":  "payongret.w@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
+        "employee_id":  "07170173",
+        "username":  "yuttaphong.p",
+        "email":  "yuttaphong.p@fishmarket.co.th",
+        "name":  "นายยุทธพงษ์  เพชรบำรุง",
+        "position":  "นักบัญชี",
+        "department1":  "ฝ.สป.ทร.1",
+        "department2":  "ทร.ชพ.",
+        "role":  "user",
+        "manager_email":  "noppachai.b@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10"
+    },
+    {
         "employee_id":  "07170174",
         "username":  "pornthip.t",
         "email":  "pornthip.t@fishmarket.co.th",
@@ -1072,7 +1780,7 @@
         "username":  "wasanchai.j",
         "email":  "wasanchai.j@fishmarket.co.th",
         "name":  "นายวสันต์ชัย  ใจน้อย",
-        "position":  "หัวหน้าสำนักงาน",
+        "position":  "หัวหน้าสำนักงาน / ร.ผฝ.",
         "department1":  "ฝสศ.",
         "department2":  "สบคพ.",
         "role":  "user",
@@ -1095,13 +1803,13 @@
         "employee_id":  "07170177",
         "username":  "tawich.k",
         "email":  "tawich.k@fishmarket.co.th",
-        "name":  "น.ส.เตวิช  คงดี",
+        "name":  "นายเตวิช  คงดี",
         "position":  "หัวหน้าศูนย์",
         "department1":  "ฝ.สป.ทร. 1",
         "department2":  "ศขส.",
         "role":  "user",
         "manager_email":  "tawich.k@fishmarket.co.th",
-        "premission":  "1,2,3,4,5,6,7,8,10"
+        "premission":  "1,2,3,5,6,7,8,10"
     },
     {
         "employee_id":  "07170178",
@@ -1173,7 +1881,7 @@
         "department2":  "สบตส.",
         "role":  "user",
         "manager_email":  "wasanchai.j@fishmarket.co.th",
-        "premission":  "1,2,3,4,5,6,7,8"
+        "premission":  "1,2,3,4,5,6,7,8,10"
     },
     {
         "employee_id":  "07170187",
@@ -1197,7 +1905,7 @@
         "department2":  "",
         "role":  "user",
         "manager_email":  "preeda.y@fishmarket.co.th",
-        "premission":  "1,2,3,4,5,6,7,8"
+        "premission":  "1,2,3,5,6,7,8"
     },
     {
         "employee_id":  "07170192",
@@ -1284,6 +1992,18 @@
         "premission":  "1,2,3,4,5,6,7,8"
     },
     {
+        "employee_id":  "07170200",
+        "username":  "khemiga.s",
+        "email":  "khemiga.s@fishmarket.co.th",
+        "name":  "น.ส.เขมิกา  สกุลแพทย์",
+        "position":  "เจ้าหน้าที่บริหารงานทั่วไป",
+        "department1":  "ฝ.สป.ทร. 2",
+        "department2":  "สป.นศ.",
+        "role":  "user",
+        "manager_email":  "supranee.p@fishmarket.co.th",
+        "premission":  "1,2,3,5,6,7,8,10,11"
+    },
+    {
         "employee_id":  "07170202",
         "username":  "warunyoo.s",
         "email":  "warunyoo.s@fishmarket.co.th",
@@ -1317,7 +2037,7 @@
         "department2":  "ผกป.",
         "role":  "user",
         "manager_email":  "nopparat.s@fishmarket.co.th",
-        "premission":  "1,2,3,4,5,6,7,8,9,10,11"
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170206",
@@ -1329,7 +2049,7 @@
         "department2":  "สบ.1",
         "role":  "user",
         "manager_email":  "pornthip.t@fishmarket.co.th",
-        "premission":  "1,2,3,4,5,6,7,8,11"
+        "premission":  "1,2,3,4,5,6,7,8"
     },
     {
         "employee_id":  "07170208",

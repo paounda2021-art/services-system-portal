@@ -1,7 +1,11 @@
 # Extract cell signatures from the zip package in memory first (to avoid Excel file lock)
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 Add-Type -AssemblyName System.Drawing
-$zip = [System.IO.Compression.ZipFile]::OpenRead("C:\Users\FMO-10\services-system-portal\users.xlsx")
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+if (-not $scriptDir) { $scriptDir = Get-Location }
+$rootDir = Split-Path -Parent $scriptDir
+$xlsxPath = Join-Path $rootDir "users.xlsx"
+$zip = [System.IO.Compression.ZipFile]::OpenRead($xlsxPath)
 
 $getSignBase64 = {
     param($imagePath)
@@ -63,7 +67,7 @@ $zip.Dispose()
 # Now open Excel to read metadata
 $excel = New-Object -ComObject Excel.Application
 $excel.Visible = $false
-$workbook = $excel.Workbooks.Open("C:\Users\FMO-10\services-system-portal\users.xlsx")
+$workbook = $excel.Workbooks.Open($xlsxPath)
 $sheet = $workbook.Sheets.Item(1)
 
 # Find header columns
@@ -125,5 +129,6 @@ $workbook.Close($false)
 $excel.Quit()
 [System.Runtime.Interopservices.Marshal]::ReleaseComObject($excel) | Out-Null
 
-$users | ConvertTo-Json -Depth 10 | Out-File -FilePath "C:\Users\FMO-10\services-system-portal\deploy_latest\users.json" -Encoding utf8
+$jsonPath = Join-Path $scriptDir "users.json"
+$users | ConvertTo-Json -Depth 10 | Out-File -FilePath $jsonPath -Encoding utf8
 Write-Host "Successfully converted $($users.Count) users from users.xlsx to users.json"
