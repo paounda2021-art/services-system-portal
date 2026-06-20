@@ -3,8 +3,7 @@ Add-Type -AssemblyName System.IO.Compression.FileSystem
 Add-Type -AssemblyName System.Drawing
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 if (-not $scriptDir) { $scriptDir = Get-Location }
-$rootDir = Split-Path -Parent $scriptDir
-$xlsxPath = Join-Path $rootDir "users.xlsx"
+$xlsxPath = Join-Path $scriptDir "users.xlsx"
 $zip = [System.IO.Compression.ZipFile]::OpenRead($xlsxPath)
 
 $getSignBase64 = {
@@ -101,7 +100,6 @@ while ($true) {
         $val = $sheet.Cells.Item($row, $col).Value2
         
         $username = $sheet.Cells.Item($row, 2).Text.Trim()
-        # No override for column 10 (premission column)
         
         # Override name spelling for chalong.c to match user request
         if ($col -eq 4 -and $username -eq "chalong.c") {

@@ -32,21 +32,20 @@ const SYSTEM_LINKS = {
     inbox: "https://workd.go.th/mail/inbox"
   },
   itSupport: {
-    main: "https://tickets-request.fishmarket.co.th/",
-    create: "https://tickets-request.fishmarket.co.th/",
-    status: "https://tickets-request.fishmarket.co.th/"
+    main: "https://itsupport.fmo.go.th",
+    create: "https://itsupport.fmo.go.th/ticket/create",
+    status: "https://itsupport.fmo.go.th/ticket/track"
   },
   checkPermission: {
-    main: "https://check-permission.fishmarket.co.th/",
-    scan: "https://check-permission.fishmarket.co.th/",
-    report: "https://check-permission.fishmarket.co.th/"
+    main: "https://permission.fmo.go.th",
+    scan: "https://permission.fmo.go.th/review",
+    report: "https://permission.fmo.go.th/reports"
   },
   webRequest: {
-    main: "https://web-request.fishmarket.co.th/",
-    submit: "https://web-request.fishmarket.co.th/",
-    history: "https://web-request.fishmarket.co.th/"
+    main: "https://webrequest.fmo.go.th",
+    submit: "https://webrequest.fmo.go.th/request/submit",
+    history: "https://webrequest.fmo.go.th/requests/archive"
   },
-  // สำหรับเจ้าหน้าที่สินเชื่อเท่านั้น (Stand-alone system)
   coreLoan: {
     main: "https://coreloan.fmo.go.th",
     calc: "https://coreloan.fmo.go.th/calculator",
@@ -58,9 +57,9 @@ const SYSTEM_LINKS = {
     report: "https://acc.fishmarket.co.th/"
   },
   myketPro: {
-    main: "https://app.myket.in.th/auth/login",
-    map: "https://app.myket.in.th/auth/login",
-    contracts: "https://app.myket.in.th/auth/login"
+    main: "https://myketpro.fmo.go.th",
+    map: "https://myketpro.fmo.go.th/market-map",
+    contracts: "https://myketpro.fmo.go.th/contracts"
   }
 };
 
@@ -133,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let allUsers = [];
 
   // โหลดรายชื่อผู้ใช้งานทั้งหมดจาก users.json
-  fetch('deploy_latest/users.json')
+  fetch('users.json')
     .then(response => response.json())
     .then(data => {
       allUsers = data;
