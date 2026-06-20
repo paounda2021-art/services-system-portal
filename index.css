@@ -1551,3 +1551,20 @@ body.mint-coastal-theme .footer-info p {
   font-weight: 700;
   margin-top: 1.5rem;
 }
+
+/* Standalone notice styling */
+.standalone-notice {
+  color: #e53e3e;
+  font-weight: 700;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: var(--radius-md);
+  background-color: rgba(229, 62, 62, 0.08);
+  border: 1px dashed rgba(229, 62, 62, 0.25);
+  margin-top: 5px;
+}
