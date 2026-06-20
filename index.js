@@ -32,20 +32,21 @@ const SYSTEM_LINKS = {
     inbox: "https://workd.go.th/mail/inbox"
   },
   itSupport: {
-    main: "https://itsupport.fmo.go.th",
-    create: "https://itsupport.fmo.go.th/ticket/create",
-    status: "https://itsupport.fmo.go.th/ticket/track"
+    main: "https://tickets-request.fishmarket.co.th/",
+    create: "https://tickets-request.fishmarket.co.th/",
+    status: "https://tickets-request.fishmarket.co.th/"
   },
   checkPermission: {
-    main: "https://permission.fmo.go.th",
-    scan: "https://permission.fmo.go.th/review",
-    report: "https://permission.fmo.go.th/reports"
+    main: "https://check-permission.fishmarket.co.th/",
+    scan: "https://check-permission.fishmarket.co.th/",
+    report: "https://check-permission.fishmarket.co.th/"
   },
   webRequest: {
-    main: "https://webrequest.fmo.go.th",
-    submit: "https://webrequest.fmo.go.th/request/submit",
-    history: "https://webrequest.fmo.go.th/requests/archive"
+    main: "https://web-request.fishmarket.co.th/",
+    submit: "https://web-request.fishmarket.co.th/",
+    history: "https://web-request.fishmarket.co.th/"
   },
+  // สำหรับเจ้าหน้าที่สินเชื่อเท่านั้น (Stand-alone system)
   coreLoan: {
     main: "https://coreloan.fmo.go.th",
     calc: "https://coreloan.fmo.go.th/calculator",
@@ -57,9 +58,9 @@ const SYSTEM_LINKS = {
     report: "https://acc.fishmarket.co.th/"
   },
   myketPro: {
-    main: "https://myketpro.fmo.go.th",
-    map: "https://myketpro.fmo.go.th/market-map",
-    contracts: "https://myketpro.fmo.go.th/contracts"
+    main: "https://app.myket.in.th/auth/login",
+    map: "https://app.myket.in.th/auth/login",
+    contracts: "https://app.myket.in.th/auth/login"
   }
 };
 
